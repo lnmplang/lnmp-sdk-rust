@@ -11,5 +11,5 @@ path = "src/lib.rs"
 [dependencies]
 lnmp-core = { path = "../lnmp-protocol/crates/lnmp-core" }
 
-# If your local workspace uses the older name, uncomment to use `lnpm-protocol`:
-# lnmp-core = { path = "../lnpm-protocol/crates/lnmp-core" }
+# (Local development only) If using a local copy, ensure the folder is named `lnmp-protocol`
+# lnmp-core = { path = "../lnmp-protocol/crates/lnmp-core" }
